@@ -32,10 +32,7 @@ body {
   transition: 0.25s;
 }
 
-#search-box: focus {
-  outline-offset: 5px;
-  background-color: #fff;
-}
+
 
 .country-list {
   list-style: none;
