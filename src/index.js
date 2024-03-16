@@ -52,7 +52,7 @@ const createListMarkup = data => {
   return data
     .map(
       ({ name, flags }) =>
-      `<li><img src="${flags.png}" alt="${name.official}" width="60" height="40">${name.official}</li>`
+       `<li><img src="${flags.png}" alt="${name.official}" width="60" height="40">${name.official}</li>`
     )
     .join('');
 };
